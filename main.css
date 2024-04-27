@@ -3,26 +3,85 @@
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
-    /* display: flex; */
+    box-sizing: border-box;
+    border: none;
 }
 
 #header{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 h1 {
     font-size: 45px;
     font-weight: 700;
-    margin:    0 0 35px;
-    margin-right: 850px;
 }
+
+#navegacao, P{
+    display: flex;
+}
+
 
 p {
     font-size: 35px; 
     font-weight: 600;
     margin: 42px 35px 0 0;
 }
+
+#poster {
+    width: 1440px;
+    height: 415px;
+    margin-top: 139px;
+
+    background: #5B5B5B;
+}
+
+/* Gato rajado com a pata levantada */
+#poster :nth-child(3) {
+    position: absolute;
+    width: 648px;
+    height: 656px;
+    left: -44px;
+    top: -17px;
+}
+
+/* gato branco deitado */
+#poster :nth-child(2) {
+    position: absolute;
+    width: 650px;
+    height: 415px;
+    left: 269px;
+    top: 244px;
+    
+}
+
+/* Gato rajado em pé */
+#poster :nth-child(1) {
+    position: absolute;
+    width: 310px;
+    height: 659px;
+    left: 550px;
+    top: 11px;
+}
+    
+/* Tres gatos surpresos */
+#poster :nth-child(4) {
+    position: absolute;
+    width: 780px;
+    height: 480px;
+    left: 664px;
+    top: 165px;
+}
+
+ #linha {
+    position: relative;
+    width: 1440px;
+    height: 17px;
+
+    background: #D9D9D9;
+}
+
 
 img {
     width: 100px;
